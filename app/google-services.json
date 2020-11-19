@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "966340872229",
+    "firebase_url": "https://arcticmonkeys-1d5c8.firebaseio.com",
+    "project_id": "arcticmonkeys-1d5c8",
+    "storage_bucket": "arcticmonkeys-1d5c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966340872229:android:863b73b1a7efd6d9aad7cc",
+        "android_client_info": {
+          "package_name": "com.gsixacademy.android.arcticmonkeys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966340872229-aa55sljdothv4e5hth8rpb65f82gavuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApIlMBBnvl7WDMqN8pSVfiKq5_1vnvXIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966340872229-aa55sljdothv4e5hth8rpb65f82gavuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

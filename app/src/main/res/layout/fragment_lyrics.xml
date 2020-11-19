@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_lyrics"
+    android:background="@android:color/black">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/text_import_TV"
+    android:text="LYRICS"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="50dp"/>
+    <TextView
+       app:layout_constraintTop_toBottomOf="parent"
+        android:id="@+id/text_import_TV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/i_wanna_be_your_vacuum_cleaner_breathing_in_your_dust_i_wanna_be_your_ford_cortina_i_will_never_rust_if_you_like_your_coffee_hot_let_me_be_your_coffee_pot_you_call_the_shots_babe_i_just_wanna_be_yours_secrets_i_have_held_in_my_heart_are_harder_to_hide_than_i_thought_maybe_i_just_wanna_be_yours_i_wanna_be_yours_i_wanna_be_yours_wanna_be_yours_wanna_be_yours_wanna_be_yours_let_me_be_your_leccy_meter_and_i_ll_never_run_out_and_let_me_be_the_portable_heater_that_you_ll_get_cold_without_i_wanna_be_your_setting_lotion_i_wanna_be_hold_your_hair_in_deep_devotion_how_deep_at_least_as_deep_as_the_pacific_ocean_i_wanna_be_yours_secrets_i_have_held_in_my_heart_are_harder_to_hide_than_i_thought_maybe_i_just_wanna_be_yours_i_wanna_be_yours_i_wanna_be_yours_wanna_be_yours_wanna_be_yours_wanna_be_yours_wanna_be_yours_wanna_be_yours_wanna_be_yours_wanna_be_yours_i_wanna_be_your_vacuum_cleaner_breathing_in_your_dust_i_wanna_be_your_ford_cortina_i_will_never_rust_i_just_wanna_be_yours_wanna_be_yours_i_just_wanna_be_yours_wanna_be_yours_i_just_wanna_be_yours_wanna_be_yours"
+        android:textColor="@android:color/white"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:lineSpacingExtra="5dp"
+        android:lineHeight="30dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

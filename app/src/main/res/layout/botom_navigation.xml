@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/textview_lyrics"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/lyrics_icon"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Lyrics"/>
+    <TextView
+        android:id="@+id/textview_youtube"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/youtube_icon"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Youtube"/>
+    <TextView
+        android:id="@+id/textview_tabs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:drawablePadding="6dp"
+        android:drawableTop="@drawable/tabs_icon"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Get Tabs"/>
+
+</LinearLayout>
