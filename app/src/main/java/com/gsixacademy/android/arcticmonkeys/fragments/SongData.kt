@@ -10,7 +10,7 @@ class SongData():Parcelable {
     var duration:String?=null
     var lyrics:String?=null
     var name:String?=null
-    var number:String?=null
+    var number:Long?=null
     var tabs:String?=null
     var image:String?=null
     var youtube:String?=null
@@ -21,7 +21,7 @@ class SongData():Parcelable {
         duration=parcel.readString()
         lyrics=parcel.readString()
         name=parcel.readString()
-        number=parcel.readString()
+        number=parcel.readLong()
         tabs=parcel.readString()
         image=parcel.readString()
         youtube=parcel.readString()
@@ -30,7 +30,7 @@ class SongData():Parcelable {
         parcel.writeString(duration)
         parcel.writeString(lyrics)
         parcel.writeString(name)
-        parcel.writeString(number)
+        number?.let { parcel.writeLong(it) }
         parcel.writeString(tabs)
         parcel.writeString(youtube)
     }

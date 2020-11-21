@@ -31,7 +31,7 @@ class SongsAdapter (
     inner class MyViewHolder(view:View):RecyclerView.ViewHolder(view){
         fun bindData(songData:SongData?,position: Int){
 
-            itemView.song_number_tv.text=songData?.number
+            itemView.song_number_tv.text= songData?.number.toString()
             itemView.songTitle_tv.text=songData?.name
             itemView.songtimeInput_TV.text=songData?.duration
             Picasso.get().load(songData?.image).fit().into(itemView.songIV)

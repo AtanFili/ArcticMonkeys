@@ -27,7 +27,6 @@
         android:text="1"
         android:textColor="@android:color/white"
         android:textStyle="italic"
-        android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"/>
     <TextView
         android:id="@+id/songTitle_tv"

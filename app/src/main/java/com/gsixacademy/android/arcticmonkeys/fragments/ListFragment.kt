@@ -39,7 +39,7 @@ class ListFragment:Fragment() {
             if(it is SongsDataClickEvent.SongsDataItemClicked){
 
                 var bundle=Bundle()
-                bundle.putString("songNumber",it.songData?.number)
+                bundle.putString("songNumber", it.songData?.number.toString())
                 bundle.putString("songName",it.songData?.name)
                 bundle.putString("duration",it.songData?.duration)
                 bundle.putString("image",it.songData?.image)
